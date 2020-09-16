@@ -20,3 +20,14 @@ berek6 /= q
 print("berekening6: z /= q  =", berek6)
 berek7 = z * a
 print("berekening7: z * a= ", berek7)
+berek8 = w
+berek8 -= q
+print("berekening8: w -= q  =", berek8)
+berek9 = w
+berek9 *= z
+print("berekening9: w *= z  =", berek9)
+berek10 = x
+berek10 %= q
+print("berekening10: x %= q  =", berek10)
+berek11 = q**z
+print("berekening6: q ** z= ", berek11)
