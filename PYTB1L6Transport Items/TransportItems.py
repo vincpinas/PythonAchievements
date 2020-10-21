@@ -15,12 +15,12 @@ print("factory is sending the " + str(factory) +" to distribution")
 time.sleep(1.7)
 os.system("cls")
 distribution = []
-distribution.append(factory)
+distribution.append(factory.pop())
 factory.clear
 print("distribution is preparing the " + str(distribution) + " for sale")
 time.sleep(1.7)
 os.system("cls")
 shop = []
-shop.append(distribution)
+shop.append(distribution.pop())
 distribution.clear
 print("The " + str(shop) + " is ready for sale in the shop")
