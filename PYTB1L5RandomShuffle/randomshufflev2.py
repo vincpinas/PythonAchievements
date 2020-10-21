@@ -1,14 +1,14 @@
 import random
-original = ["vincent", "heerlijk", "smakelijk"]
+original = ["vincent", "grappig", "hallo"]
+lengte = len(original)
+i = 0
 
-randomised = ''.join(random.sample(original[0], len(original[0])))
-randomised2 = ''.join(random.sample(original[1], len(original[1])))
-randomised3 = ''.join(random.sample(original[2], len(original[2])))
+def shuffle(original):
+    randomised = ''.join(random.sample(original, len(original)))
+    return randomised 
 
-def shuffle(randomised):
-    print(randomised, randomised2, randomised3)
-    return 3 * randomised 
-
-shuffle(randomised)
+while i < lengte:
+    print(shuffle(original[i]))
+    i += 1
 
 
